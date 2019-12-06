@@ -10,9 +10,11 @@ variable "amis" {
 }
 variable "name" {}
 variable "instance_type" {}
-variable "availability_zone" {description = "Zone in which instance exist"}
+variable "availability_zone" {
+        description = "Zone in which instance exist"
+}
 variable "key_name" {}
-variable "private_ip" {}
+#variable "private_ip" {}
 variable "bucket_name" {}
 
 locals {
