@@ -1,7 +1,7 @@
 region = "ap-south-1"
 instance_type = "t2.micro"
 availability_zone = "ap-south-1a"
-private_ip = "172.31.10.10"
+private_ip = "172.31.16.10"
 key_name = "newaccount"
 amis = {
   "ap-south-1" = "ami-0ce933e2ae91880d3"
