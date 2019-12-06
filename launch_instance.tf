@@ -5,5 +5,5 @@ resource "aws_instance" "myec2server" {
   availability_zone = var.availability_zone
   private_ip = var.private_ip
   key_name = var.key_name
-  tags = local.common_tags
+  tags = merge(local.common_tags , {"Name" = var.name})
 }

@@ -13,7 +13,6 @@ variable "instance_type" {}
 variable "availability_zone" {description = "Zone in which instance exist"}
 variable "key_name" {}
 variable "private_ip" {}
-variable "description" {}
 variable "bucket_name" {}
 
 locals {
